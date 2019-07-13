@@ -1,0 +1,17 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack -p --progress --profile --colors && node server",
+    "dev": "node server"
+  },
+  "keywords": [],
+  "author": "Saroar Hossain Shahan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
